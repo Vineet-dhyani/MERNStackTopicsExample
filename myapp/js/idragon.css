@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: red;
+    overflow: hidden;
+
+}
+
+.gameContainer{
+    background:url("https://thumbs.dreamstime.com/b/paysage-sans-couture-de-vecteur-de-bande-dessin%C3%A9e-avec-des-couches-s%C3%A9par%C3%A9es-74120418.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+    
+}
+.dino{
+    background-image: url("https://freepngimg.com/download/dinosaur/8-2-dinosaur-png-clipart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 144px;
+    width: 200px;
+    position: absolute;
+    bottom: 4%;
+    left: 20px;
+}
+.obstacle{
+    background-image: url("https://assets.stickpng.com/thumbs/5a01edf818e87004f1ca430d.png");
+    width: 166px;
+    height: 100px;
+    position: absolute;
+    bottom: 4%;
+    background-size: contain;
+    left: 50vw;
+    background-repeat: no-repeat;
+}
+
+.animateDino{
+    animation: dino 0.6s linear;
+}
+
+@keyframes dino {
+
+    0%{
+        bottom:4%;
+    }
+    50%{
+        bottom:225px;
+    }
+    100%{
+        bottom:4%;
+    }
+}
+.obstacleAni{
+    animation: obstacleAni 5s linear infinite;
+}
+
+.gameOver{
+    visibility: hidden;
+    position: relative;
+    top:63px;
+    font-size: 53px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#ScoreCont{
+    position: absolute;
+    top:31px;
+    right: 45px;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+   color: #54212f;
+   font-weight: bold;
+}
+@keyframes obstacleAni{
+    0%{
+        left: 100vw;
+
+    }
+    100%{
+        left:-10vw;
+    }
+}

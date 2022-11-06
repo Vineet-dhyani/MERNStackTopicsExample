@@ -1,0 +1,31 @@
+{
+  "name": "mltiple-drawing",
+  "version": "",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "jest": "^23.6.0",
+    "sinon": "^9.2.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "mz": "^2.7.0",
+    "supertest": "^6.1.3"
+  }
+}

@@ -1,0 +1,10 @@
+
+the data of 
+                   combined file  is:this is file 1
+ this is file 2
+the data of 
+                   combined file  is:this is file 1
+ this is file 2
+the data of 
+                   combined file  is:this is file 1
+ this is file 2
